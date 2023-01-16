@@ -1,0 +1,25 @@
+.App {
+  padding: 4rem;
+}
+
+.header {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 1rem 0;
+}
+
+.grid {
+  display: grid;
+  gap: 4px;
+}
+
+.droppable {
+  border: 2px solid black;
+}
+
+.draggable {
+  width: 20px;
+  height: 20px;
+  background: green;
+  cursor: pointer;
+}
